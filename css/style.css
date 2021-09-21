@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.head{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffbde2;
+
+}
+.head .logo{
+    background-color: #ccc;
+    height: 10%;
+    width: 13%;
+    margin-left: 40px;
+    margin-top: 5px;
+    float: left;
+}
+.head .menu{
+    float: right;
+    width: 80%;
+    margin: 0 auto;
+}
+.head .menu ul{
+    text-align: right;
+}
+.head .menu ul li{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.head .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* .head h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+} */
+.calendario{
+    width: 100%;
+}
+.calendario-wraper{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.calendario-1{
+    margin: 10px;
+    text-align: center;
+}
+.calendario-1 p{
+    display: inline-block;
+    color: #ff006a;
+    font-weight: bold;
+    font-size: 27px;
+}
+.calendario-1 img{
+    height: 25px;
+    width:25px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+    color: black;
+    margin: 0 auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.img-slide{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+}
+.info{
+    padding: 10px;
+}
+.info form{
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+.info form p{
+    width: 4%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff006a;
+    display: inline-block;
+}
+.info form input[type=text]{
+    width: 96%;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 2px solid #ff006a;
+    border-radius: 10px;
+}
+.info form input:focus{
+    border: 0;
+}
+.info img{
+    height: 30px;
+    cursor: pointer;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.info form{
+    height: 190px;
+    overflow: hidden;
+}
+.form-wraper{
+    height: 100%;
+}
+.calendario-wraper .img-slide{
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+.reserva h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    background-color: #ff63a4;
+    color: white;
+}
+.form-reserva .form-reserva-wraper{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.form-reserva .form-reserva-wraper input[type=text]{
+    width: 90%;
+    border-radius: 20px;
+    border: 3px solid #ff006a;
+    margin: 20px 2%;
+    padding: 9px;
+}
+.form-reserva .form-reserva-wraper2{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.form-reserva .form-reserva-wraper2 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-reserva .form-reserva-wraper2 p{
+    display: inline-block;
+}
+.form-reserva .form-reserva-wraper2 p:nth-of-type(2){
+    margin-left: 30px;
+}
+.form-reserva .form-reserva-wraper2 iframe{
+    padding: 15px;
+}
+.form-botao{
+    padding: 10px;
+    text-align: center;
+}
+.form-botao input[type=submit]{
+    border: 1px solid #ff63a4;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #ff006a;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
